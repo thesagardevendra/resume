@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-navbar {
+  height: 500px;
+  width: 100%;
+}
+
+.main-navbar .nav-info-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-navbar .nav-info-1 .heading {
+  color: #1a1a1a;
+  font-size: 23px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.main-navbar .nav-info-1 .heading span {
+  color: #bfc4ca;
+}
+
+.main-navbar .nav-info-1 .resume {
+  color: #1a1a1a;
+  font-size: 23px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.main-navbar .nav-info-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-navbar .nav-info-2 .info-2-sub-class-1 .dev-data {
+  display: none;
+}
+
+.main-navbar .nav-info-2 .info-2-sub-class-1 .sub-class-1-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-navbar .nav-info-2 .info-2-sub-class-1 .sub-class-1-1 p {
+  color: #7dbef3;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+.main-navbar .nav-info-2 .info-2-sub-class-1 .sub-class-1-1 h2 {
+  color: #113CFC;
+  font-weight: bold;
+}
+
+.main-navbar .nav-info-2 .info-2-sub-class-1 .sub-class-1-1 .sub-class-1-1-1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-navbar .nav-info-2 .info-2-sub-class-1 hr {
+  width: 100%;
+}
+
+.main-navbar .nav-info-2 .info-2-sub-class-2 img {
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+}
+
+.main-navbar .project-card {
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.main-navbar .project-card .project-info {
+  position: relative;
+  width: 300px;
+  border-radius: 10px;
+  height: 450px;
+  background-color: gold;
+}
+
+.main-navbar .project-card .project-info .fa-circle-arrow-right {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: rgba(83, 83, 83, 0.719);
+}
+
+.main-navbar .project-card .project-info .language-info {
+  background-color: rgba(128, 128, 128, 0.678);
+  position: absolute;
+  bottom: 0;
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main-navbar .footer {
+  margin-top: 60px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-navbar .footer .heading {
+  color: #1a1a1a;
+  font-size: 23px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.main-navbar .footer .heading span {
+  color: #bfc4ca;
+}
+
+.main-navbar .footer .social-icon {
+  margin: 10px;
+}
+
+@media (min-width: 576px) {
+  .main-navbar {
+    height: 500px;
+    width: 100%;
+  }
+  .main-navbar .nav-info-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-navbar .nav-info-1 h2 {
+    color: #1a1a1a;
+    letter-spacing: 3px;
+  }
+  .main-navbar .nav-info-1 span {
+    color: #bfc4ca;
+  }
+  .main-navbar .nav-info-1 .resume {
+    display: block;
+  }
+  .main-navbar .nav-info-2 .info-2-sub-class-1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main-navbar .nav-info-2 .info-2-sub-class-1 .dev-data {
+    display: block;
+    width: 500px;
+  }
+  .main-navbar .nav-info-2 .info-2-sub-class-1 .sub-class-1-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main-navbar .nav-info-2 .info-2-sub-class-1 hr {
+    width: 100%;
+  }
+  .main-navbar .nav-info-2 .info-2-sub-class-2 img {
+    margin-top: 20px;
+    -webkit-filter: blur(3px);
+            filter: blur(3px);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+  }
+}
+
+@media (min-width: 786px) {
+  .main-navbar .nav-info-2 .info-2-sub-class-1 .dev-data {
+    display: block;
+    width: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-navbar .nav-info-2 .info-2-sub-class-1 .dev-data {
+    display: block;
+    width: 900px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
